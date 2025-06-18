@@ -2,6 +2,117 @@
    --dark_background_color: #200226;
    --background_color: #4A2052;
    --text_color: #F3E9FF;
-   --transparent_background: #ecdcff34;
+   --transparent_background: rgba(236, 220, 255, 0.13);
    --form_color: #C4B7D0;
+   --card_bg: rgba(32, 2, 38, 0.28);
+}
+
+.main__2 {
+   padding-bottom: 150px;
+}
+
+.new__2 {
+   width: 1486px;
+   margin: auto;
+}
+
+main {
+   width: 1920px;
+   background: linear-gradient(var(--dark_background_color), var(--background_color), var(--background_color), var(--dark_background_color));
+}
+
+.h__2 {
+   font-size: 96px;
+   color: var(--text_color);
+   margin-left: 100px;
+   position: relative;
+   top: 40px;
+   padding-top: 70px;
+}
+
+.container__2 {
+   background: var(--transparent_background);
+   padding: 90px 100px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   column-gap: 160px;
+   row-gap: 90px;
+   border-radius: 30px;
+}
+
+.order__2 {
+   width: 562px;
+   height: 673px;
+   background: var(--card_bg);
+   border-radius: 30px;
+   padding: 24px 24px 26px 24px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.content__2 {
+   display: flex;
+   justify-content: space-between;
+   padding: 0 10px;
+   padding-top: 20px;
+   align-items: center;
+}
+
+.text__2 {
+   font-size: 48px;
+   color: var(--text_color);
+}
+
+.basket__2 {
+   cursor: pointer;
+}
+
+.view__card__2 {
+   cursor: pointer;
+}
+
+.footer_content__2 {
+   width: 1920px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   padding: 100px 0;
+   background: var(--dark_background_color);
+   column-gap: 150px;
+   position: relative;
+}
+
+.footer__nav__2 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.li__text__2:not(:first-child) {
+   padding-top: 24px;
+}
+
+.li__text__2 {
+   font-size: 36px;
+   color: var(--text_color);
+}
+
+.social__img__2 {
+   display: flex;
+   align-items: center;
+   column-gap: 30px;
+   padding-top: 24px;
+}
+
+.line__footer__2 {
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.explanation__2 {
+   font-size: 40px;
 }
