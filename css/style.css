@@ -247,11 +247,13 @@ main {
 }
 
 .footer_content__2 {
+   width: 1920px;
    display: flex;
    justify-content: center;
    align-items: center;
    margin: auto;
    padding: 100px 0;
+   padding-right: 350px;
    background: var(--dark_background_color);
    column-gap: 150px;
    position: relative;
@@ -262,6 +264,8 @@ main {
    flex-direction: column;
    justify-content: center;
 }
+
+
 
 .li__text__2:not(:first-child) {
    padding-top: 24px;
@@ -287,4 +291,19 @@ main {
 
 .explanation__2 {
    font-size: 40px;
+}
+
+.padding_top__1{
+   padding-top: 200px;
+}
+
+
+.header_text__2 {
+   width: 714px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 48px;
+   margin: 70px 0;
+   padding-left: 100px;
 }
