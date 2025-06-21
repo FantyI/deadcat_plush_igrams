@@ -6,6 +6,7 @@
     <title>Deadcat</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
   </head>
   <body>
     <header class="header_main__1">
@@ -14,15 +15,35 @@
         deadcat - Мягкие друзья, не боящиеся темноты
       </h1>
       <img class="waves_header__1" src="images/waves_header.png" alt="" />
+
+      <div class="open_navigate"></div>
+      <div class="navigation_block__1" id="navigation_block__1">
+        <div class="blackout_navigate blackout" id="blackout"></div>
+        <div class="navigation_block_contains__1">
+          <h2 class="navigation_block_title__1">навигация</h2>
+          <ul>
+            <li><a href="index.html">главная</a></li>
+            <li><a href="catalog.html">игрушки</a></li>
+            <li>
+              <a href="#delivery_and_payment">доставка и оплата</a>
+            </li>
+            <li><a href="reviews.html">отзывы</a></li>
+            <li><a href="contacts.html">контакты</a></li>
+          </ul>
+          <a href="index.html"
+            ><img src="images/logo.png" alt="" class="logo"
+          /></a>
+        </div>
+      </div>
     </header>
     <main class="main__1">
-      <div class="descriptions__1">
+      <section class="descriptions__1">
         Deadcat - это не просто плюшевые игрушки, это маленькие друзья, которые
         всегда готовы поддержать и добавить немного позитива в ваш день. В
         каждом мягком создании Deadcat - уникальный стиль, который сочетает в
         себе милую наивность и легкий намек на мрачную эстетику.
-      </div>
-      <div class="advantage__1">
+      </section>
+      <section class="advantage__1">
         <div class="small_block__1">Качество</div>
         <div class="big_block__1">
           Все игрушки Deadcat сшиты вручную из высококачественных материалов,
@@ -39,7 +60,7 @@
           Создайте свою собственную коллекцию Deadcat, собирая полюбившихся
           персонажей и формируя свой собственный мир мягких друзей
         </div>
-      </div>
+      </section>
       <section class="new__2">
         <h2 class="h__2">новинки</h2>
         <div class="container__2">
@@ -102,7 +123,7 @@
               </div>
             </div>
           </div>
-          <button class="all_reviews__1">все товары</button>
+          <button class="all_reviews__1"><a href="catalog.html">все товары</a></button>
         </div>
       </section>
       <img
@@ -111,7 +132,7 @@
         alt=""
       />
       <div class="title__1 h__2">отзывы</div>
-      <div class="reviews_block__1">
+      <section class="reviews_block__1">
         <div class="scroll__1">
           <div class="left__1">
             <svg
@@ -146,9 +167,12 @@
             </svg>
           </div>
         </div>
-        <button class="all_reviews__1">все отзывы</button>
+        <button class="all_reviews__1"><a href="reviews.html">все отзывы</a></button>
+      </section>
+      <div class="title__1 h__2" id="delivery_and_payment">
+        доставка и оплата
       </div>
-      <div class="delivery__1">
+      <section class="delivery__1">
         <ul>
           <li>
             заказ оформляется через паблик Вконтакте, либо напрямую через меня;
@@ -160,12 +184,12 @@
         </ul>
         <div class="communication_buttons__1">
           <button class="application__1">оставить заявку</button>
-          <button class="detailed__1">подробнее</button>
+          <button class="detailed__1"><a href="">подробнее</a></button>
         </div>
-      </div>
+      </section>
     </main>
     <footer>
-      <div class="footer_content__2 padding_top__1" >
+      <div class="footer_content__2 padding_top__1">
         <a href="#">
           <img src="images/logo.png" alt="" />
         </a>
@@ -192,6 +216,36 @@
         <img class="line__footer__2" src="images/footer/Frame 18.png" alt="" />
       </div>
     </footer>
-    <script src="script.js"></script>
+
+    <div class="submit_application">
+      <div class="blackout_form blackout"></div>
+      <form class="submit_application_content block_content__1">
+        <img class="close" src="images/close.png" alt="">
+        <h2 class="submit_application_title">оставить заявку</h2>
+        <div class="form_submit_application">
+          <div class="submit_application_inp">
+            <input type="text" id='surname' placeholder=' '>
+            <label for="surname">фамилия</label>
+          </div>
+          <div class="submit_application_inp">
+            <input type="text" id='name' placeholder=' '>
+            <label for="name">имя</label>
+          </div>
+          <div class="submit_application_inp">
+            <input type="text" id='telephone' placeholder=' '>
+            <label for="telephone">телефон</label>
+          </div>
+          <div class="submit_application_inp">
+            <textarea type="text" id='comment' placeholder=' '></textarea>
+            <label for="comment">комментарий</label>
+          </div>
+        </div>
+        <button class="btn_send">отправить</button>
+      </form>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/form.js"></script>
   </body>
 </html>

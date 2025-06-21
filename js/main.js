@@ -4,11 +4,9 @@ const left_btn = document.querySelector('.left__1')
 const reviewsBlock = document.querySelector('.reviews__1')
 
 left_btn.addEventListener('click', () => {
-   reviewsBlock.scrollBy(-1000, 0)
+   reviewsBlock.scrollBy(-800, 0)
 })
 
 right_btn.addEventListener('click', () => {
-   reviewsBlock.scrollBy(1000, 0)
+   reviewsBlock.scrollBy(800, 0)
 })
-
-
