@@ -671,7 +671,7 @@ a {
    padding: 50px 0;
 }
 
-.section__block__h, .section__block__h, .section__block__h__3 {
+.section__block__h__1, .section__block__h__2, .section__block__h__3 {
    position: relative;
    font-size: 96px;
    z-index: 2;
@@ -683,7 +683,7 @@ a {
    margin-top: 100px;
 }
 
-.section__block__h::after {
+.section__block__h__1::after {
    position: absolute;
    content: "1";
    font-size: 450px;
@@ -694,7 +694,7 @@ a {
    opacity: 0.48;
 }
 
-.section__block__h::after {
+.section__block__h__2::after {
    position: absolute;
    content: "2";
    font-size: 450px;
