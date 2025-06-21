@@ -3,7 +3,7 @@ blackout_form.addEventListener('click', () => {
    document.body.classList.remove('visible_form')
 })
 
-const application = document.querySelector('.application__1')
+const application = document.querySelector('.application')
 application.addEventListener('click', () => {
    document.body.classList.toggle('visible_form')
 })

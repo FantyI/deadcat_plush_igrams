@@ -30,9 +30,9 @@ select {
 
 button {
    cursor: pointer;
+   border-radius: 60px;
    padding: 0;
    border: none;
-   border-radius: 60px;
    background-color: transparent;
 }
 
